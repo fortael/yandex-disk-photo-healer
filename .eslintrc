@@ -1,0 +1,33 @@
+{
+  "extends": [
+    "airbnb-base"
+  ],
+  "plugins": [
+    "import"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {}
+  },
+  "rules": {
+    "no-console": 0,
+    "no-param-reassign": "off",
+    "function-paren-newline": "off",
+    "arrow-parens": [
+      "error",
+      "always"
+    ],
+    "arrow-body-style": [
+      2,
+      "as-needed"
+    ],
+    "indent": [
+      2,
+      4,
+      {
+        "SwitchCase": 1
+      }
+    ]
+  }
+}

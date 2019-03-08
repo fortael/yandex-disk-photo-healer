@@ -1,0 +1,22 @@
+{
+  "name": "yandex-disk-photo-healer",
+  "version": "1.0.0",
+  "description": "Mass fix for photos which don't have taken date for yandex.disk",
+  "main": "index.js",
+  "repository": "",
+  "scripts": {
+    "start": "babel-node --presets env index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fortael <fortael@yahoo.com>",
+  "license": "ISC",
+  "dependencies": {
+    "piexifjs": "^1.0.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "eslint-config-airbnb-base": "^13.1.0"
+  }
+}
